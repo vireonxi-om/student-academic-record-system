@@ -1,0 +1,4 @@
+Invalid
+Enhancement: loading a corrupt file is refused and memory is untouched
+Add S001; load bad.dat (text 'garbage'); confirm y; display all
+Load cancelled with a reason; the original S001 record is still there

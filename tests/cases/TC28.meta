@@ -1,0 +1,4 @@
+Invalid
+An identifier containing a space is rejected
+Add: ID 'S 1', then S001, then valid data
+Space in ID rejected; S001 accepted

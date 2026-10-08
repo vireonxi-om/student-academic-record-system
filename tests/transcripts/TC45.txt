@@ -1,0 +1,88 @@
+# Transcript of test TC45 (Boundary)
+# Purpose : Enhancement: loading when memory is empty needs no confirmation
+# Input   : Create a valid save file with 2 students outside the program; option 13; display all
+# Expected: Loaded 2 records straight away (no y/n question); table shows both
+# Result  : PASS
+
+==============================================================
+  Student Academic Record and Performance Management System
+  GM University | C Programming with Practice (UE26CS1103)
+==============================================================
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 0 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 13
+
+=== Load Records ===
+File name [students.dat]: saved.dat
+Loaded 2 record(s) from "saved.dat".
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 2 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 2
+
+=== All Student Records ===
+ID  Name      Math  Phys  Chem  Engl  Comp  Total  Average  Percent  Result
+---------------------------------------------------------------------------
+A1  Ann Lee     90    90    90    90    90    450    90.00   90.00%  Pass
+B2  Bo Li       30    90    90    90    90    390    78.00   78.00%  Fail
+
+2 student record(s) shown. Pass rule: every subject >= 40.
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 2 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 0
+
+Thank you for using the system. Records held in memory are lost on exit
+unless you saved them (option 12). Goodbye.

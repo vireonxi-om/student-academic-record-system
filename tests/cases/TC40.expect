@@ -1,0 +1,7 @@
+Saved 5 record(s) to "roundtrip.dat".
+Loading replaces the 6 record(s) currently in memory.
+Loaded 5 record(s) from "roundtrip.dat".
+5 student record(s) shown.
+!S006  Late Entry
+STUDENT-PBL-DATA v1 subjects=5 max_mark=100
+S001	Asha Rao	80	70	60	90	50

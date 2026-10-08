@@ -1,0 +1,4 @@
+Invalid
+Blank identifier and blank name are rejected
+Add: blank ID, then S001, blank name, then Asha Rao, then valid marks
+Both blanks rejected with a message; record saved afterwards

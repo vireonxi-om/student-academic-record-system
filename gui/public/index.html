@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#0d1424">
+  <title>Mark Register</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to the content</a>
+
+  <!-- Rough-ink filter used by the result stamps -->
+  <svg class="defs" width="0" height="0" aria-hidden="true" focusable="false">
+    <filter id="ink-rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.7" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </svg>
+
+  <div class="app">
+    <aside class="side" id="side">
+      <a class="brand" href="#overview" aria-label="Mark Register, overview">
+        <svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+          <rect x="1" y="1" width="38" height="38" rx="11" class="logo-tile"/>
+          <path class="logo-tick" d="M12 21.5l5.2 5.2L28.5 14"/>
+          <path class="logo-pen" d="M31 9.5C26 4.4 12.5 5.6 8.6 14.2c-3.4 7.6.8 17 10.4 18.2 8.6 1.1 15.4-5 14.2-13-.6-4-3.4-7.3-7.4-9"/>
+        </svg>
+        <span class="brand-name">Mark<br>Register</span>
+      </a>
+
+      <nav id="nav" aria-label="Sections"></nav>
+
+      <div class="side-foot">
+        <div class="gauge" id="gauge" aria-live="polite"></div>
+        <button type="button" class="side-btn" id="palette-open">
+          <span data-icon="search"></span>
+          <span class="grow">Search or jump to</span>
+          <kbd class="kbd" id="palette-key">Ctrl K</kbd>
+        </button>
+        <p class="engine" id="engine"><i class="dot"></i><span>Connecting to the C engine</span></p>
+      </div>
+    </aside>
+
+    <div class="stage">
+      <header class="topbar">
+        <a class="brand brand-small" href="#overview" aria-label="Mark Register, overview">
+          <svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+            <rect x="1" y="1" width="38" height="38" rx="11" class="logo-tile"/>
+            <path class="logo-tick" d="M12 21.5l5.2 5.2L28.5 14"/>
+            <path class="logo-pen" d="M31 9.5C26 4.4 12.5 5.6 8.6 14.2c-3.4 7.6.8 17 10.4 18.2 8.6 1.1 15.4-5 14.2-13-.6-4-3.4-7.3-7.4-9"/>
+          </svg>
+          <span class="brand-name">Mark Register</span>
+        </a>
+        <div class="top-actions">
+          <button type="button" class="icon-btn" id="theme-toggle" aria-label="Switch to dark mode" aria-pressed="false" data-tip="Switch theme"></button>
+          <button type="button" class="icon-btn only-mobile" id="palette-open-mobile" aria-label="Search" data-icon="search"></button>
+          <button type="button" class="btn primary" id="add-open"><span data-icon="plus"></span><span>Add student</span><kbd class="kbd">N</kbd></button>
+        </div>
+      </header>
+
+      <main id="main" tabindex="-1" aria-live="off"></main>
+
+      <footer class="foot">
+        <span>Every total, percentage, result and count on these pages is calculated by the C program in this project.</span>
+        <button type="button" class="link" id="help-open">Keyboard shortcuts</button>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Add a student (side drawer) -->
+  <dialog id="add-dialog" class="drawer" aria-labelledby="add-title">
+    <form id="add-form" novalidate>
+      <header class="drawer-head">
+        <div>
+          <h2 id="add-title">Add a student</h2>
+          <p class="hint">Marks are whole numbers from 0 to <span data-max-mark>100</span>. A student passes only when every subject is at least <span data-pass-mark>40</span>.</p>
+        </div>
+        <button type="button" class="icon-btn" data-close aria-label="Close" data-icon="x"></button>
+      </header>
+      <div class="drawer-body">
+        <div class="field">
+          <label for="add-id">Student ID</label>
+          <input id="add-id" name="id" autocomplete="off" spellcheck="false" maxlength="40" aria-describedby="add-id-error">
+          <p class="error" id="add-id-error" role="alert"></p>
+        </div>
+        <div class="field">
+          <label for="add-name">Name</label>
+          <input id="add-name" name="name" autocomplete="off" maxlength="120" aria-describedby="add-name-error">
+          <p class="error" id="add-name-error" role="alert"></p>
+        </div>
+        <fieldset class="marks-fields" id="add-marks"></fieldset>
+        <p class="hint">Tip: use the up and down arrow keys in a mark field to change it (hold Shift for steps of 10).</p>
+        <p class="error form-error" id="add-error" role="alert"></p>
+      </div>
+      <footer class="drawer-foot">
+        <button type="button" class="btn ghost" data-close>Cancel</button>
+        <button type="submit" class="btn secondary" data-again="1">Save and add another</button>
+        <button type="submit" class="btn primary">Save student</button>
+      </footer>
+    </form>
+  </dialog>
+
+  <!-- One student's report card (side drawer) -->
+  <dialog id="detail-dialog" class="drawer" aria-labelledby="detail-title">
+    <div id="detail-body"></div>
+  </dialog>
+
+  <!-- Confirmation -->
+  <dialog id="confirm-dialog" class="modal" aria-labelledby="confirm-title">
+    <form method="dialog" id="confirm-form">
+      <h2 id="confirm-title"></h2>
+      <p id="confirm-text"></p>
+      <div class="actions">
+        <button type="submit" class="btn ghost" value="cancel">Cancel</button>
+        <button type="submit" class="btn danger" value="ok" id="confirm-ok">Confirm</button>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- Command palette -->
+  <dialog id="palette-dialog" class="palette" aria-label="Search or jump to">
+    <div class="palette-box">
+      <div class="palette-input">
+        <span data-icon="search"></span>
+        <input id="palette-q" type="text" role="combobox" aria-expanded="true" aria-controls="palette-list" aria-autocomplete="list"
+               placeholder="Find a student, jump to a page, or run an action" autocomplete="off" spellcheck="false">
+        <kbd class="kbd">Esc</kbd>
+      </div>
+      <ul id="palette-list" role="listbox" aria-label="Results"></ul>
+    </div>
+  </dialog>
+
+  <!-- Keyboard shortcuts -->
+  <dialog id="help-dialog" class="modal" aria-labelledby="help-title">
+    <h2 id="help-title">Keyboard shortcuts</h2>
+    <dl class="shortcuts" id="shortcuts"></dl>
+    <div class="actions"><button type="button" class="btn primary" data-close>Done</button></div>
+  </dialog>
+
+  <div id="tip" role="tooltip" hidden></div>
+  <div id="toasts" aria-live="polite" aria-atomic="false"></div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+Normal
+Windows (CRLF) line endings in piped input are handled
+Add S001 Asha Rao 80 70 60 90 50 using CR+LF line ends
+Record saved with a clean name (no stray carriage return)

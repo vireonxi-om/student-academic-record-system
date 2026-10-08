@@ -1,0 +1,6 @@
+  Error: 99 is out of range. Enter a whole number from 0 to 14.
+  Error: -1 is out of range. Enter a whole number from 0 to 14.
+  Error: "abc" is not a valid whole number. Enter a whole number from 0 to 14.
+  Error: "3.5" is not a valid whole number. Enter a whole number from 0 to 14.
+  Error: input cannot be blank. Enter a whole number from 0 to 14.
+Goodbye.

@@ -1,0 +1,34 @@
+digraph data_model {
+  graph [rankdir=TB, fontname="Helvetica", nodesep=0.9, ranksep=0.3, dpi=200, margin=0.08];
+  node  [fontname="Helvetica", fontsize=10.5, color="#333333"];
+  edge  [color="#333333", dir=none, style=dashed];
+
+  db [shape=plaintext, label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR><TD COLSPAN="3" BGCOLOR="#DDE8F4"><B>Records db</B>  (one structure variable in main)</TD></TR>
+      <TR><TD ALIGN="LEFT">Student students[100]</TD><TD ALIGN="LEFT">int marks[100][5]</TD><TD ALIGN="LEFT">int count</TD></TR>
+      <TR><TD ALIGN="LEFT">array of structures</TD><TD ALIGN="LEFT">2-D marks table</TD><TD ALIGN="LEFT">rows 0 .. count-1 are used</TD></TR>
+    </TABLE>>];
+
+  st [shape=plaintext, label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR><TD COLSPAN="2" BGCOLOR="#E8F0DC"><B>students[ ]</B>  (id[20], name[80])</TD></TR>
+      <TR><TD>row</TD><TD>id / name</TD></TR>
+      <TR><TD>0</TD><TD PORT="r0" ALIGN="LEFT">S001 / Asha Rao</TD></TR>
+      <TR><TD>1</TD><TD PORT="r1" ALIGN="LEFT">S002 / Ravi Das</TD></TR>
+      <TR><TD>2</TD><TD PORT="r2" ALIGN="LEFT">S003 / Mina Sen</TD></TR>
+    </TABLE>>];
+
+  mk [shape=plaintext, label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR><TD COLSPAN="6" BGCOLOR="#F4E8D8"><B>marks[ ][ ]</B>  (student by subject)</TD></TR>
+      <TR><TD>row</TD><TD>Maths</TD><TD>Physics</TD><TD>Chem.</TD><TD>English</TD><TD>Comput.</TD></TR>
+      <TR><TD PORT="r0">0</TD><TD>80</TD><TD>70</TD><TD>60</TD><TD>90</TD><TD>50</TD></TR>
+      <TR><TD PORT="r1">1</TD><TD>40</TD><TD>40</TD><TD>40</TD><TD>40</TD><TD>40</TD></TR>
+      <TR><TD PORT="r2">2</TD><TD>100</TD><TD>100</TD><TD>100</TD><TD>100</TD><TD>39</TD></TR>
+    </TABLE>>];
+
+  db -> st [style=invis]; db -> mk [style=invis];
+  {rank=same; st; mk}
+  st:r0:e -> mk:r0:w; st:r1:e -> mk:r1:w; st:r2:e -> mk:r2:w;
+}

@@ -1,0 +1,2 @@
+cat "$CASES/guide5.part"
+printf '%s\n' 4 "asha rao" 3 s001 11 ASHA 11 sen 11 zzz 0

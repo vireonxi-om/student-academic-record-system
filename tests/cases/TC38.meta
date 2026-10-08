@@ -1,0 +1,4 @@
+Boundary
+Enhancement: tied totals share a rank and the next rank is skipped
+Add four students with totals 50, 450, 350, 350; option 10
+Ranks 1, 2, 2, 4

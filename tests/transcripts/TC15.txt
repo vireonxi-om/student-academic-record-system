@@ -1,0 +1,287 @@
+# Transcript of test TC15 (Boundary)
+# Purpose : No records: every display/analysis option is safe
+# Input   : Options 2,3,4,5,6,7,8,9,10,11,14 with nothing added, then 0
+# Expected: A clear 'no student records' message 11 times; no report headings printed; no crash
+# Result  : PASS
+
+==============================================================
+  Student Academic Record and Performance Management System
+  GM University | C Programming with Practice (UE26CS1103)
+==============================================================
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 0 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 2
+
+No student records available yet. Use option 1 to add students.
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 0 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 3
+
+No student records available yet. Use option 1 to add students.
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 0 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 4
+
+No student records available yet. Use option 1 to add students.
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 0 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 5
+
+No student records available yet. Use option 1 to add students.
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 0 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 6
+
+No student records available yet. Use option 1 to add students.
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 0 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 7
+
+No student records available yet. Use option 1 to add students.
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 0 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 8
+
+No student records available yet. Use option 1 to add students.
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 0 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 9
+
+No student records available yet. Use option 1 to add students.
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 0 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 10
+
+No student records available yet. Use option 1 to add students.
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 0 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 11
+
+No student records available yet. Use option 1 to add students.
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 0 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 14
+
+No student records available yet. Use option 1 to add students.
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 0 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 0
+
+Thank you for using the system. Records held in memory are lost on exit
+unless you saved them (option 12). Goodbye.

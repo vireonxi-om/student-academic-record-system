@@ -1,0 +1,4584 @@
+# Transcript of test TC18 (Boundary)
+# Purpose : The 100th record is accepted and the 101st is rejected
+# Input   : Add C001-C100, then choose option 1 again, then option 2
+# Expected: 100th accepted ('100 of 100'); capacity message for the 101st; still exactly 100 records
+# Result  : PASS
+
+==============================================================
+  Student Academic Record and Performance Management System
+  GM University | C Programming with Practice (UE26CS1103)
+==============================================================
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 0 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C001
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (1 of 100 records used).
+  ID         : C001
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 1 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C002
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (2 of 100 records used).
+  ID         : C002
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 2 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C003
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (3 of 100 records used).
+  ID         : C003
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 3 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C004
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (4 of 100 records used).
+  ID         : C004
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 4 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C005
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (5 of 100 records used).
+  ID         : C005
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 5 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C006
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (6 of 100 records used).
+  ID         : C006
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 6 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C007
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (7 of 100 records used).
+  ID         : C007
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 7 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C008
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (8 of 100 records used).
+  ID         : C008
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 8 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C009
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (9 of 100 records used).
+  ID         : C009
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 9 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C010
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (10 of 100 records used).
+  ID         : C010
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 10 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C011
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (11 of 100 records used).
+  ID         : C011
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 11 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C012
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (12 of 100 records used).
+  ID         : C012
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 12 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C013
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (13 of 100 records used).
+  ID         : C013
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 13 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C014
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (14 of 100 records used).
+  ID         : C014
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 14 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C015
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (15 of 100 records used).
+  ID         : C015
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 15 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C016
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (16 of 100 records used).
+  ID         : C016
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 16 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C017
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (17 of 100 records used).
+  ID         : C017
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 17 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C018
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (18 of 100 records used).
+  ID         : C018
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 18 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C019
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (19 of 100 records used).
+  ID         : C019
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 19 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C020
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (20 of 100 records used).
+  ID         : C020
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 20 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C021
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (21 of 100 records used).
+  ID         : C021
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 21 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C022
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (22 of 100 records used).
+  ID         : C022
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 22 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C023
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (23 of 100 records used).
+  ID         : C023
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 23 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C024
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (24 of 100 records used).
+  ID         : C024
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 24 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C025
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (25 of 100 records used).
+  ID         : C025
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 25 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C026
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (26 of 100 records used).
+  ID         : C026
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 26 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C027
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (27 of 100 records used).
+  ID         : C027
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 27 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C028
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (28 of 100 records used).
+  ID         : C028
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 28 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C029
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (29 of 100 records used).
+  ID         : C029
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 29 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C030
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (30 of 100 records used).
+  ID         : C030
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 30 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C031
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (31 of 100 records used).
+  ID         : C031
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 31 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C032
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (32 of 100 records used).
+  ID         : C032
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 32 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C033
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (33 of 100 records used).
+  ID         : C033
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 33 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C034
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (34 of 100 records used).
+  ID         : C034
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 34 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C035
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (35 of 100 records used).
+  ID         : C035
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 35 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C036
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (36 of 100 records used).
+  ID         : C036
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 36 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C037
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (37 of 100 records used).
+  ID         : C037
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 37 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C038
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (38 of 100 records used).
+  ID         : C038
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 38 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C039
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (39 of 100 records used).
+  ID         : C039
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 39 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C040
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (40 of 100 records used).
+  ID         : C040
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 40 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C041
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (41 of 100 records used).
+  ID         : C041
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 41 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C042
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (42 of 100 records used).
+  ID         : C042
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 42 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C043
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (43 of 100 records used).
+  ID         : C043
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 43 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C044
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (44 of 100 records used).
+  ID         : C044
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 44 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C045
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (45 of 100 records used).
+  ID         : C045
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 45 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C046
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (46 of 100 records used).
+  ID         : C046
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 46 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C047
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (47 of 100 records used).
+  ID         : C047
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 47 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C048
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (48 of 100 records used).
+  ID         : C048
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 48 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C049
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (49 of 100 records used).
+  ID         : C049
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 49 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C050
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (50 of 100 records used).
+  ID         : C050
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 50 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C051
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (51 of 100 records used).
+  ID         : C051
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 51 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C052
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (52 of 100 records used).
+  ID         : C052
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 52 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C053
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (53 of 100 records used).
+  ID         : C053
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 53 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C054
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (54 of 100 records used).
+  ID         : C054
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 54 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C055
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (55 of 100 records used).
+  ID         : C055
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 55 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C056
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (56 of 100 records used).
+  ID         : C056
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 56 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C057
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (57 of 100 records used).
+  ID         : C057
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 57 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C058
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (58 of 100 records used).
+  ID         : C058
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 58 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C059
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (59 of 100 records used).
+  ID         : C059
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 59 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C060
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (60 of 100 records used).
+  ID         : C060
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 60 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C061
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (61 of 100 records used).
+  ID         : C061
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 61 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C062
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (62 of 100 records used).
+  ID         : C062
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 62 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C063
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (63 of 100 records used).
+  ID         : C063
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 63 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C064
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (64 of 100 records used).
+  ID         : C064
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 64 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C065
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (65 of 100 records used).
+  ID         : C065
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 65 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C066
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (66 of 100 records used).
+  ID         : C066
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 66 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C067
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (67 of 100 records used).
+  ID         : C067
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 67 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C068
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (68 of 100 records used).
+  ID         : C068
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 68 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C069
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (69 of 100 records used).
+  ID         : C069
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 69 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C070
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (70 of 100 records used).
+  ID         : C070
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 70 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C071
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (71 of 100 records used).
+  ID         : C071
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 71 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C072
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (72 of 100 records used).
+  ID         : C072
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 72 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C073
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (73 of 100 records used).
+  ID         : C073
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 73 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C074
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (74 of 100 records used).
+  ID         : C074
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 74 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C075
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (75 of 100 records used).
+  ID         : C075
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 75 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C076
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (76 of 100 records used).
+  ID         : C076
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 76 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C077
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (77 of 100 records used).
+  ID         : C077
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 77 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C078
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (78 of 100 records used).
+  ID         : C078
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 78 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C079
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (79 of 100 records used).
+  ID         : C079
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 79 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C080
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (80 of 100 records used).
+  ID         : C080
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 80 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C081
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (81 of 100 records used).
+  ID         : C081
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 81 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C082
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (82 of 100 records used).
+  ID         : C082
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 82 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C083
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (83 of 100 records used).
+  ID         : C083
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 83 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C084
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (84 of 100 records used).
+  ID         : C084
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 84 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C085
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (85 of 100 records used).
+  ID         : C085
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 85 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C086
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (86 of 100 records used).
+  ID         : C086
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 86 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C087
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (87 of 100 records used).
+  ID         : C087
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 87 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C088
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (88 of 100 records used).
+  ID         : C088
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 88 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C089
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (89 of 100 records used).
+  ID         : C089
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 89 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C090
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (90 of 100 records used).
+  ID         : C090
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 90 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C091
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (91 of 100 records used).
+  ID         : C091
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 91 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C092
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (92 of 100 records used).
+  ID         : C092
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 92 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C093
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (93 of 100 records used).
+  ID         : C093
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 93 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C094
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (94 of 100 records used).
+  ID         : C094
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 94 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C095
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (95 of 100 records used).
+  ID         : C095
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 95 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C096
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (96 of 100 records used).
+  ID         : C096
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 96 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C097
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (97 of 100 records used).
+  ID         : C097
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 97 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C098
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (98 of 100 records used).
+  ID         : C098
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 98 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C099
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (99 of 100 records used).
+  ID         : C099
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 99 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C100
+Enter student name (max 79 characters): Capacity Test
+Enter marks for Maths (0-100): 50
+Enter marks for Physics (0-100): 50
+Enter marks for Chemistry (0-100): 50
+Enter marks for English (0-100): 50
+Enter marks for Computing (0-100): 50
+
+Student added successfully (100 of 100 records used).
+  ID         : C100
+  Name       : Capacity Test
+  Marks      :
+    Maths     :  50
+    Physics   :  50
+    Chemistry :  50
+    English   :  50
+    Computing :  50
+  Total      : 250 / 500
+  Average    : 50.00
+  Percentage : 50.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 100 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+Capacity reached: the table already holds 100 students. Nothing was added.
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 100 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 2
+
+=== All Student Records ===
+ID    Name           Math  Phys  Chem  Engl  Comp  Total  Average  Percent  Result
+----------------------------------------------------------------------------------
+C001  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C002  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C003  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C004  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C005  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C006  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C007  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C008  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C009  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C010  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C011  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C012  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C013  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C014  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C015  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C016  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C017  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C018  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C019  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C020  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C021  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C022  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C023  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C024  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C025  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C026  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C027  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C028  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C029  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C030  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C031  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C032  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C033  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C034  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C035  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C036  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C037  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C038  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C039  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C040  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C041  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C042  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C043  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C044  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C045  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C046  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C047  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C048  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C049  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C050  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C051  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C052  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C053  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C054  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C055  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C056  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C057  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C058  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C059  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C060  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C061  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C062  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C063  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C064  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C065  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C066  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C067  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C068  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C069  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C070  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C071  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C072  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C073  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C074  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C075  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C076  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C077  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C078  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C079  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C080  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C081  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C082  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C083  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C084  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C085  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C086  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C087  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C088  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C089  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C090  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C091  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C092  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C093  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C094  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C095  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C096  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C097  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C098  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C099  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+C100  Capacity Test    50    50    50    50    50    250    50.00   50.00%  Pass
+
+100 student record(s) shown. Pass rule: every subject >= 40.
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 100 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 0
+
+Thank you for using the system. Records held in memory are lost on exit
+unless you saved them (option 12). Goodbye.

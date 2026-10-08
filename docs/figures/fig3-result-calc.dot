@@ -1,0 +1,19 @@
+digraph result_calc {
+  graph [rankdir=TB, fontname="Helvetica", nodesep=0.25, ranksep=0.22, dpi=200, margin=0.08];
+  node  [fontname="Helvetica", fontsize=10.5, style=filled, fillcolor="#FFFFFF", color="#333333"];
+  edge  [fontname="Helvetica", fontsize=9.5, color="#333333"];
+
+  start [label="Result of student in row i", shape=ellipse, fillcolor="#DDEEDD"];
+  calc  [label="total = sum of marks[i][0..4]\naverage = (double) total / 5\npercentage = total * 100.0 / 500", shape=box];
+  chk   [label="every marks[i][s]\n>= 40 ?", shape=diamond, fillcolor="#FFF4D6"];
+  pass  [label="Result = Pass", shape=box, fillcolor="#DDEEDD"];
+  fail  [label="Result = Fail\n(name the subjects below 40)", shape=box, fillcolor="#F4DDDD"];
+  out   [label="Display total, average,\npercentage, result", shape=parallelogram];
+  end   [label="END", shape=ellipse, fillcolor="#F4DDDD"];
+
+  {rank=same; pass; fail}
+  start -> calc -> chk;
+  chk -> pass [label="yes"];
+  chk -> fail [label="no"];
+  pass -> out; fail -> out; out -> end;
+}

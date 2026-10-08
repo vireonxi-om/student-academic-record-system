@@ -1,0 +1,2 @@
+cat "$CASES/guide5.part"
+printf '%s\n' 9 S003 5 40 0 8 0

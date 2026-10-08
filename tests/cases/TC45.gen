@@ -1,0 +1,2 @@
+printf 'STUDENT-PBL-DATA v1 subjects=5 max_mark=100\nA1\tAnn Lee\t90\t90\t90\t90\t90\nB2\tBo Li\t30\t90\t90\t90\t90\n' > saved.dat
+printf '%s\n' 13 saved.dat 2 0

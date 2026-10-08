@@ -1,0 +1,16 @@
+digraph modules {
+  graph [rankdir=TB, fontname="Helvetica", nodesep=0.25, ranksep=0.45, dpi=200, margin=0.1];
+  node  [fontname="Helvetica", fontsize=10, shape=box, style="filled", fillcolor="#FFFFFF", color="#333333"];
+  edge  [color="#555555", arrowsize=0.7];
+
+  main [fillcolor="#DDE8F4", label=<<B>main.c</B><BR/>menu and program flow>];
+  student [fillcolor="#E8F0DC", label=<<B>student.c</B><BR/>add_student, display_student,<BR/>display_all_students, find_student_by_id,<BR/>search_by_id / _name / _partial_name,<BR/>display_marks_table, update_marks>];
+  analysis [fillcolor="#F4E8D8", label=<<B>analysis.c</B><BR/>calculate_total / _average / _percentage,<BR/>is_pass, mark_band, show_extremes,<BR/>show_frequency, show_result_summary,<BR/>show_ranking>];
+  input [fillcolor="#EEE0F0", label=<<B>input.c</B><BR/>read_int_in_range, read_nonempty_text,<BR/>read_text_or_default, read_yes_no,<BR/>parse_int_in_range>];
+  storage [fillcolor="#E0EEF0", label=<<B>storage.c</B><BR/>save_records, load_records,<BR/>export_csv, menu_* wrappers>];
+  header [fillcolor="#F4F4F4", label=<<B>student.h</B><BR/>constants, Student and Records types,<BR/>all function prototypes>];
+
+  main -> student; main -> analysis; main -> storage; main -> input;
+  student -> input; student -> analysis; storage -> input; storage -> student; storage -> analysis;
+  header -> main [style=dotted, arrowhead=none]; header -> student [style=dotted, arrowhead=none];
+}

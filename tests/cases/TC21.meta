@@ -1,0 +1,4 @@
+Invalid
+Non-numeric marks (abc, 42abc, 4.5, blank) are rejected without looping forever
+Add S001; Maths typed as abc, 42abc, 4.5, (blank), then 80
+Each is rejected as not a whole number / blank; 42abc is NOT accepted as 42

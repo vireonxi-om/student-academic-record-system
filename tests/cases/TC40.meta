@@ -1,0 +1,4 @@
+Normal
+Enhancement: save, change, then load restores the saved records
+Add S001-S005; save roundtrip.dat; add S006; load roundtrip.dat (y); display all
+Saved 5; load warns it replaces 6; loaded 5; table shows 5 records and no S006; file has header and TAB-separated rows

@@ -1,0 +1,32 @@
+# Transcript of test TC29 (Invalid)
+# Purpose : Input that ends at the menu exits cleanly
+# Input   : Empty input (end of file immediately)
+# Expected: Message 'Input ended' and normal exit
+# Result  : PASS
+
+==============================================================
+  Student Academic Record and Performance Management System
+  GM University | C Programming with Practice (UE26CS1103)
+==============================================================
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 0 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 
+Input ended. Exiting the program.

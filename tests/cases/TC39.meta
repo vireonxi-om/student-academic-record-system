@@ -1,0 +1,4 @@
+Normal
+Enhancement: partial name search is not case-sensitive; exact search is
+Add S001-S005; exact 'asha rao', ID 's001', partial 'ASHA', partial 'sen', partial 'zzz'
+Exact/ID searches are case-sensitive (no match); partial finds 2 and 1 records; zzz finds none

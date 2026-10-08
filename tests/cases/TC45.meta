@@ -1,0 +1,4 @@
+Boundary
+Enhancement: loading when memory is empty needs no confirmation
+Create a valid save file with 2 students outside the program; option 13; display all
+Loaded 2 records straight away (no y/n question); table shows both

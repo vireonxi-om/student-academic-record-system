@@ -1,0 +1,456 @@
+# Transcript of test TC10 (Normal)
+# Purpose : Integrated session: add, display, search, analyse, add more, analyse again
+# Input   : Add 3 students, options 2, 3, 8; add 2 more, options 8, 7, 6
+# Expected: Summaries use current data: pass 66.67% after 3 records, then 60.00% after 5
+# Result  : PASS
+
+==============================================================
+  Student Academic Record and Performance Management System
+  GM University | C Programming with Practice (UE26CS1103)
+==============================================================
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 0 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): S001
+Enter student name (max 79 characters): Asha Rao
+Enter marks for Maths (0-100): 80
+Enter marks for Physics (0-100): 70
+Enter marks for Chemistry (0-100): 60
+Enter marks for English (0-100): 90
+Enter marks for Computing (0-100): 50
+
+Student added successfully (1 of 100 records used).
+  ID         : S001
+  Name       : Asha Rao
+  Marks      :
+    Maths     :  80
+    Physics   :  70
+    Chemistry :  60
+    English   :  90
+    Computing :  50
+  Total      : 350 / 500
+  Average    : 70.00
+  Percentage : 70.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 1 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): S002
+Enter student name (max 79 characters): Ravi Das
+Enter marks for Maths (0-100): 40
+Enter marks for Physics (0-100): 40
+Enter marks for Chemistry (0-100): 40
+Enter marks for English (0-100): 40
+Enter marks for Computing (0-100): 40
+
+Student added successfully (2 of 100 records used).
+  ID         : S002
+  Name       : Ravi Das
+  Marks      :
+    Maths     :  40
+    Physics   :  40
+    Chemistry :  40
+    English   :  40
+    Computing :  40
+  Total      : 200 / 500
+  Average    : 40.00
+  Percentage : 40.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 2 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): S003
+Enter student name (max 79 characters): Mina Sen
+Enter marks for Maths (0-100): 100
+Enter marks for Physics (0-100): 100
+Enter marks for Chemistry (0-100): 100
+Enter marks for English (0-100): 100
+Enter marks for Computing (0-100): 39
+
+Student added successfully (3 of 100 records used).
+  ID         : S003
+  Name       : Mina Sen
+  Marks      :
+    Maths     : 100
+    Physics   : 100
+    Chemistry : 100
+    English   : 100
+    Computing :  39   <- below pass mark
+  Total      : 439 / 500
+  Average    : 87.80
+  Percentage : 87.80%
+  Result     : Fail
+  Reason     : at least one subject is below the pass mark of 40
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 3 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 2
+
+=== All Student Records ===
+ID    Name      Math  Phys  Chem  Engl  Comp  Total  Average  Percent  Result
+-----------------------------------------------------------------------------
+S001  Asha Rao    80    70    60    90    50    350    70.00   70.00%  Pass
+S002  Ravi Das    40    40    40    40    40    200    40.00   40.00%  Pass
+S003  Mina Sen   100   100   100   100    39    439    87.80   87.80%  Fail
+
+3 student record(s) shown. Pass rule: every subject >= 40.
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 3 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 3
+Enter student ID to search: S002
+
+=== ID Search Result ===
+  ID         : S002
+  Name       : Ravi Das
+  Marks      :
+    Maths     :  40
+    Physics   :  40
+    Chemistry :  40
+    English   :  40
+    Computing :  40
+  Total      : 200 / 500
+  Average    : 40.00
+  Percentage : 40.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 3 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 8
+
+=== Pass / Fail Summary ===
+Pass rule       : every subject mark must be at least 40
+Total students  : 3
+Passed          : 2
+Failed          : 1
+Pass percentage : 66.67%
+
+Failed students (with the subjects below 40):
+  S003  Mina Sen   87.80%  below pass mark in: Computing (39)
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 3 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): S004
+Enter student name (max 79 characters): Omar Ali
+Enter marks for Maths (0-100): 0
+Enter marks for Physics (0-100): 0
+Enter marks for Chemistry (0-100): 0
+Enter marks for English (0-100): 0
+Enter marks for Computing (0-100): 0
+
+Student added successfully (4 of 100 records used).
+  ID         : S004
+  Name       : Omar Ali
+  Marks      :
+    Maths     :   0   <- below pass mark
+    Physics   :   0   <- below pass mark
+    Chemistry :   0   <- below pass mark
+    English   :   0   <- below pass mark
+    Computing :   0   <- below pass mark
+  Total      : 0 / 500
+  Average    : 0.00
+  Percentage : 0.00%
+  Result     : Fail
+  Reason     : at least one subject is below the pass mark of 40
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 4 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): S005
+Enter student name (max 79 characters): Asha Rao
+Enter marks for Maths (0-100): 100
+Enter marks for Physics (0-100): 100
+Enter marks for Chemistry (0-100): 100
+Enter marks for English (0-100): 100
+Enter marks for Computing (0-100): 100
+
+Student added successfully (5 of 100 records used).
+  ID         : S005
+  Name       : Asha Rao
+  Marks      :
+    Maths     : 100
+    Physics   : 100
+    Chemistry : 100
+    English   : 100
+    Computing : 100
+  Total      : 500 / 500
+  Average    : 100.00
+  Percentage : 100.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 5 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 8
+
+=== Pass / Fail Summary ===
+Pass rule       : every subject mark must be at least 40
+Total students  : 5
+Passed          : 3
+Failed          : 2
+Pass percentage : 60.00%
+
+Failed students (with the subjects below 40):
+  S003  Mina Sen   87.80%  below pass mark in: Computing (39)
+  S004  Omar Ali    0.00%  below pass mark in: Maths (0), Physics (0), Chemistry (0), English (0), Computing (0)
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 5 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 7
+
+=== Frequency Analysis (marks per band) ===
+Subject          0-39    40-59    60-79   80-100    Total
+Maths               1        1        0        3        5
+Physics             1        1        1        2        5
+Chemistry           1        1        1        2        5
+English             1        1        0        3        5
+Computing           2        2        0        1        5
+
+Band 0-39 is below the pass mark of 40. Every mark is counted in exactly one band.
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 5 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 6
+
+=== Highest and Lowest Performance ===
+Overall performance (by total marks):
+  Highest total: 500 / 500 (100.00%)
+      S005  Asha Rao
+  Lowest  total: 0 / 500 (0.00%)
+      S004  Omar Ali
+
+Subject-wise extremes (student IDs shown; ties are all listed):
+  Maths      highest 100 : S003, S005
+             lowest    0 : S004
+  Physics    highest 100 : S003, S005
+             lowest    0 : S004
+  Chemistry  highest 100 : S003, S005
+             lowest    0 : S004
+  English    highest 100 : S003, S005
+             lowest    0 : S004
+  Computing  highest 100 : S005
+             lowest    0 : S004
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 5 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 0
+
+Thank you for using the system. Records held in memory are lost on exit
+unless you saved them (option 12). Goodbye.

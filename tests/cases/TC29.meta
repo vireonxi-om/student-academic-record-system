@@ -1,0 +1,4 @@
+Invalid
+Input that ends at the menu exits cleanly
+Empty input (end of file immediately)
+Message 'Input ended' and normal exit

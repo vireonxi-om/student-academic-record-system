@@ -1,0 +1,4 @@
+Invalid
+Enhancement: loading a missing file and declining a load are both safe
+Add S001; load nofile.dat (no records replaced since file is missing); load again but answer n
+'cannot open' message; declined load changes nothing

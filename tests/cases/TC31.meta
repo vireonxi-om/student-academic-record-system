@@ -1,0 +1,4 @@
+Normal
+Surrounding spaces are trimmed; +60 and 0080 are accepted as numbers
+Add '  S001  ' / '   Asha Rao   ' with marks '  75  ', '+60', '0080', 90, 100; then search '  S001  '
+Stored ID S001 and name Asha Rao; marks 75, 60, 80; search with spaces still finds it

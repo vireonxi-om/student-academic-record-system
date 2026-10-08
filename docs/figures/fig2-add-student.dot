@@ -1,0 +1,30 @@
+digraph add_student {
+  graph [rankdir=LR, fontname="Helvetica", nodesep=0.35, ranksep=0.35, dpi=200, margin=0.08];
+  node  [fontname="Helvetica", fontsize=12, style=filled, fillcolor="#FFFFFF", color="#333333", shape=box];
+  edge  [fontname="Helvetica", fontsize=11, color="#333333"];
+
+  full  [label="Table full?\n(count = 100)", shape=diamond, fillcolor="#FFF4D6"];
+  rid   [label="Read ID\n(re-ask if blank,\ntoo long, spaces)", fillcolor="#E4EEF8"];
+  dup   [label="ID already\nstored?\n(strcmp search)", shape=diamond, fillcolor="#FFF4D6"];
+  rest  [label="Read name, then\n5 marks 0-100\n(re-ask if invalid)", fillcolor="#E4EEF8"];
+  eofq  [label="End of input\nat a prompt?", shape=diamond, fillcolor="#FFF4D6"];
+  commit [label="Copy temp record\nand marks to row\n[count]; count + 1;\nshow record", fillcolor="#DDEEDD"];
+  m1 [label="'Capacity\nreached'", fillcolor="#E4EEF8"];
+  m2 [label="'ID already\nexists'", fillcolor="#E4EEF8"];
+  m3 [label="'Record not\nadded' (temp\ndata dropped)", fillcolor="#E4EEF8"];
+  end [label="Return\nto menu", shape=ellipse, fillcolor="#F4DDDD"];
+
+  {rank=same; full; m1}
+  {rank=same; dup; m2}
+  {rank=same; eofq; m3}
+  full -> rid [label="no"];
+  full -> m1  [label="yes"];
+  rid -> dup;
+  dup -> rest [label="no"];
+  dup -> m2   [label="yes"];
+  rest -> eofq;
+  eofq -> commit [label="no"];
+  eofq -> m3     [label="yes"];
+  commit -> end;
+  m1 -> end [style=dashed]; m2 -> end [style=dashed]; m3 -> end [style=dashed];
+}

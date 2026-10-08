@@ -1,0 +1,4 @@
+Boundary
+One mark 39 with all other marks 100 fails despite 87.80%
+Add S003 with marks 100 100 100 100 39
+Percentage 87.80% but result Fail; Computing flagged as below pass mark

@@ -1,0 +1,79 @@
+# Transcript of test TC11 (Boundary)
+# Purpose : Mark 0 in every subject is accepted
+# Input   : Add S004 with marks 0 0 0 0 0
+# Expected: Accepted; percentage 0.00%, result Fail
+# Result  : PASS
+
+==============================================================
+  Student Academic Record and Performance Management System
+  GM University | C Programming with Practice (UE26CS1103)
+==============================================================
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 0 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): S004
+Enter student name (max 79 characters): Omar Ali
+Enter marks for Maths (0-100): 0
+Enter marks for Physics (0-100): 0
+Enter marks for Chemistry (0-100): 0
+Enter marks for English (0-100): 0
+Enter marks for Computing (0-100): 0
+
+Student added successfully (1 of 100 records used).
+  ID         : S004
+  Name       : Omar Ali
+  Marks      :
+    Maths     :   0   <- below pass mark
+    Physics   :   0   <- below pass mark
+    Chemistry :   0   <- below pass mark
+    English   :   0   <- below pass mark
+    Computing :   0   <- below pass mark
+  Total      : 0 / 500
+  Average    : 0.00
+  Percentage : 0.00%
+  Result     : Fail
+  Reason     : at least one subject is below the pass mark of 40
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 1 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 0
+
+Thank you for using the system. Records held in memory are lost on exit
+unless you saved them (option 12). Goodbye.

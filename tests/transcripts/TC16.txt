@@ -1,0 +1,118 @@
+# Transcript of test TC16 (Boundary)
+# Purpose : One record: the same student is both highest and lowest
+# Input   : Add S001 Solo Student 55 66 77 88 99, option 6
+# Expected: Highest and lowest total are both 385 and both list S001
+# Result  : PASS
+
+==============================================================
+  Student Academic Record and Performance Management System
+  GM University | C Programming with Practice (UE26CS1103)
+==============================================================
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 0 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): S001
+Enter student name (max 79 characters): Solo Student
+Enter marks for Maths (0-100): 55
+Enter marks for Physics (0-100): 66
+Enter marks for Chemistry (0-100): 77
+Enter marks for English (0-100): 88
+Enter marks for Computing (0-100): 99
+
+Student added successfully (1 of 100 records used).
+  ID         : S001
+  Name       : Solo Student
+  Marks      :
+    Maths     :  55
+    Physics   :  66
+    Chemistry :  77
+    English   :  88
+    Computing :  99
+  Total      : 385 / 500
+  Average    : 77.00
+  Percentage : 77.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 1 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 6
+
+=== Highest and Lowest Performance ===
+Overall performance (by total marks):
+  Highest total: 385 / 500 (77.00%)
+      S001  Solo Student
+  Lowest  total: 385 / 500 (77.00%)
+      S001  Solo Student
+
+Subject-wise extremes (student IDs shown; ties are all listed):
+  Maths      highest  55 : S001
+             lowest   55 : S001
+  Physics    highest  66 : S001
+             lowest   66 : S001
+  Chemistry  highest  77 : S001
+             lowest   77 : S001
+  English    highest  88 : S001
+             lowest   88 : S001
+  Computing  highest  99 : S001
+             lowest   99 : S001
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 1 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 0
+
+Thank you for using the system. Records held in memory are lost on exit
+unless you saved them (option 12). Goodbye.

@@ -1,0 +1,4 @@
+Invalid
+Extremely large integers are rejected as out of range
+Add S001; Maths typed as 99999999999999999999, -99999999999999999999, then 80
+Both rejected as out of range

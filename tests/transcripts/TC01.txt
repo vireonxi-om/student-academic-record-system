@@ -1,0 +1,78 @@
+# Transcript of test TC01 (Normal)
+# Purpose : Add a valid record and show its calculated result
+# Input   : Add S001 Asha Rao with marks 80 70 60 90 50
+# Expected: Record saved; total 350/500, average 70.00, percentage 70.00%, result Pass
+# Result  : PASS
+
+==============================================================
+  Student Academic Record and Performance Management System
+  GM University | C Programming with Practice (UE26CS1103)
+==============================================================
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 0 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): S001
+Enter student name (max 79 characters): Asha Rao
+Enter marks for Maths (0-100): 80
+Enter marks for Physics (0-100): 70
+Enter marks for Chemistry (0-100): 60
+Enter marks for English (0-100): 90
+Enter marks for Computing (0-100): 50
+
+Student added successfully (1 of 100 records used).
+  ID         : S001
+  Name       : Asha Rao
+  Marks      :
+    Maths     :  80
+    Physics   :  70
+    Chemistry :  60
+    English   :  90
+    Computing :  50
+  Total      : 350 / 500
+  Average    : 70.00
+  Percentage : 70.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 1 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 0
+
+Thank you for using the system. Records held in memory are lost on exit
+unless you saved them (option 12). Goodbye.

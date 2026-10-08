@@ -1,0 +1,2 @@
+printf 'STUDENT-PBL-DATA v1 subjects=5 max_mark=100\nS009\tZed\t10\t10\t10\t10\t10\n' > other.dat
+printf '%s\n' 1 S001 "Asha Rao" 80 70 60 90 50 13 nofile.dat y 13 other.dat maybe n 2 0

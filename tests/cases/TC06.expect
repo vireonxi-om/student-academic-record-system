@@ -1,0 +1,6 @@
+=== Subject-wise Marks Table ===
+ID    Name          Maths    Physics  Chemistry    English  Computing
+S001  Asha Rao         80         70         60         90         50
+S003  Mina Sen        100        100        100        100         39
+S004  Omar Ali          0          0          0          0          0
+Class average       64.00      62.00      60.00      66.00      45.80

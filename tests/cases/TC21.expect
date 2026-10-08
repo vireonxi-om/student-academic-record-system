@@ -1,0 +1,6 @@
+  Error: "abc" is not a valid whole number. Enter a whole number from 0 to 100.
+  Error: "42abc" is not a valid whole number. Enter a whole number from 0 to 100.
+  Error: "4.5" is not a valid whole number. Enter a whole number from 0 to 100.
+  Error: input cannot be blank. Enter a whole number from 0 to 100.
+    Maths     :  80
+!Maths     :  42

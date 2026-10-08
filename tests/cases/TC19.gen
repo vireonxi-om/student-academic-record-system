@@ -1,0 +1,4 @@
+for m in 39 40 59 60 79 80; do
+    printf '1\nB%s\nBand Test %s\n%s\n50\n50\n50\n50\n' "$m" "$m" "$m"
+done
+printf '%s\n' 7 0

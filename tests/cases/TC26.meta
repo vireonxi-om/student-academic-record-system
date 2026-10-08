@@ -1,0 +1,4 @@
+Invalid
+Unsupported menu choices are rejected and the menu recovers
+Menu input 99, -1, abc, 3.5, (blank), then 0
+Each rejected with a message and the prompt returns; program then exits normally

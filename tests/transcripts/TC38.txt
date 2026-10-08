@@ -1,0 +1,239 @@
+# Transcript of test TC38 (Boundary)
+# Purpose : Enhancement: tied totals share a rank and the next rank is skipped
+# Input   : Add four students with totals 50, 450, 350, 350; option 10
+# Expected: Ranks 1, 2, 2, 4
+# Result  : PASS
+
+==============================================================
+  Student Academic Record and Performance Management System
+  GM University | C Programming with Practice (UE26CS1103)
+==============================================================
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 0 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): A
+Enter student name (max 79 characters): Low
+Enter marks for Maths (0-100): 10
+Enter marks for Physics (0-100): 10
+Enter marks for Chemistry (0-100): 10
+Enter marks for English (0-100): 10
+Enter marks for Computing (0-100): 10
+
+Student added successfully (1 of 100 records used).
+  ID         : A
+  Name       : Low
+  Marks      :
+    Maths     :  10   <- below pass mark
+    Physics   :  10   <- below pass mark
+    Chemistry :  10   <- below pass mark
+    English   :  10   <- below pass mark
+    Computing :  10   <- below pass mark
+  Total      : 50 / 500
+  Average    : 10.00
+  Percentage : 10.00%
+  Result     : Fail
+  Reason     : at least one subject is below the pass mark of 40
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 1 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): B
+Enter student name (max 79 characters): High
+Enter marks for Maths (0-100): 90
+Enter marks for Physics (0-100): 90
+Enter marks for Chemistry (0-100): 90
+Enter marks for English (0-100): 90
+Enter marks for Computing (0-100): 90
+
+Student added successfully (2 of 100 records used).
+  ID         : B
+  Name       : High
+  Marks      :
+    Maths     :  90
+    Physics   :  90
+    Chemistry :  90
+    English   :  90
+    Computing :  90
+  Total      : 450 / 500
+  Average    : 90.00
+  Percentage : 90.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 2 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): C
+Enter student name (max 79 characters): Tie1
+Enter marks for Maths (0-100): 70
+Enter marks for Physics (0-100): 70
+Enter marks for Chemistry (0-100): 70
+Enter marks for English (0-100): 70
+Enter marks for Computing (0-100): 70
+
+Student added successfully (3 of 100 records used).
+  ID         : C
+  Name       : Tie1
+  Marks      :
+    Maths     :  70
+    Physics   :  70
+    Chemistry :  70
+    English   :  70
+    Computing :  70
+  Total      : 350 / 500
+  Average    : 70.00
+  Percentage : 70.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 3 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): D
+Enter student name (max 79 characters): Tie2
+Enter marks for Maths (0-100): 70
+Enter marks for Physics (0-100): 70
+Enter marks for Chemistry (0-100): 70
+Enter marks for English (0-100): 70
+Enter marks for Computing (0-100): 70
+
+Student added successfully (4 of 100 records used).
+  ID         : D
+  Name       : Tie2
+  Marks      :
+    Maths     :  70
+    Physics   :  70
+    Chemistry :  70
+    English   :  70
+    Computing :  70
+  Total      : 350 / 500
+  Average    : 70.00
+  Percentage : 70.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 4 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 10
+
+=== Student Ranking (by total marks) ===
+Rank  ID  Name      Total  Percent  Result
+   1  B   High        450   90.00%  Pass
+   2  C   Tie1        350   70.00%  Pass
+   2  D   Tie2        350   70.00%  Pass
+   4  A   Low          50   10.00%  Fail
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 4 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 0
+
+Thank you for using the system. Records held in memory are lost on exit
+unless you saved them (option 12). Goodbye.

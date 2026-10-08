@@ -1,0 +1,7 @@
+rep() { awk -v n="$2" -v c="$1" 'BEGIN { for (i = 0; i < n; i++) printf "%s", c; printf "\n" }'; }
+printf '1\n'
+rep A 25
+rep B 300
+printf 'S001\n'
+rep N 90
+printf '%s\n' "Asha Rao" 80 70 60 90 50 0

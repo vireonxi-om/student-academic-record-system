@@ -1,0 +1,20 @@
+digraph main_flow {
+  graph [rankdir=TB, fontname="Helvetica", nodesep=0.5, ranksep=0.25, dpi=200, margin=0.08];
+  node  [fontname="Helvetica", fontsize=12, style=filled, fillcolor="#FFFFFF", color="#333333"];
+  edge  [fontname="Helvetica", fontsize=11, color="#333333"];
+
+  init  [label="START\nInitialise records (count = 0)", shape=box, style="rounded,filled", fillcolor="#DDEEDD"];
+  menu  [label="Display menu; read choice 0-14\n(re-ask until valid)", shape=parallelogram];
+  d1    [label="choice = 0 (Exit)\nor input ended?", shape=diamond, fillcolor="#FFF4D6"];
+  bye   [label="Print goodbye / exit message\nEND", shape=box, style="rounded,filled", fillcolor="#F4DDDD"];
+  ops   [label="switch (choice): run the selected operation\n(each is a reusable function)\n1 Add   2 Display   3 Search by ID   4 Search by name\n5 Marks table   6 Highest / lowest   7 Frequency\n8 Pass / fail   9 Update marks   10 Ranking\n11 Partial name search   12 Save   13 Load   14 CSV export", shape=box];
+  d2    [label="Operation hit\nend of input?", shape=diamond, fillcolor="#FFF4D6"];
+
+  {rank=same; d1; bye}
+  init -> menu -> d1;
+  d1 -> bye [label="yes"];
+  d1 -> ops [label="no"];
+  ops -> d2;
+  d2 -> bye [label="yes"];
+  d2:w -> menu:w [label="no: return to menu", constraint=false];
+}

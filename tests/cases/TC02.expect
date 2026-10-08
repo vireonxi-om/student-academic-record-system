@@ -1,0 +1,8 @@
+=== All Student Records ===
+ID    Name      Math  Phys  Chem  Engl  Comp  Total  Average  Percent  Result
+S001  Asha Rao    80    70    60    90    50    350    70.00   70.00%  Pass
+S002  Ravi Das    40    40    40    40    40    200    40.00   40.00%  Pass
+S003  Mina Sen   100   100   100   100    39    439    87.80   87.80%  Fail
+S004  Omar Ali     0     0     0     0     0      0     0.00    0.00%  Fail
+S005  Asha Rao   100   100   100   100   100    500   100.00  100.00%  Pass
+5 student record(s) shown.

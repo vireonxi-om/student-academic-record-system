@@ -1,0 +1,4 @@
+Invalid
+Marks -1 and 101 are rejected and asked again
+Add S001; Maths typed as -1, then 101, then 80
+Both rejected with an out-of-range message; the record is saved with Maths 80

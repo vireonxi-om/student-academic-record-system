@@ -1,0 +1,4 @@
+Invalid
+End of input in the middle of entering a record cancels cleanly
+Add S001, Asha Rao, 80, 70 then the input ends
+'record was not added' and a clean exit with code 0; no student is reported as added

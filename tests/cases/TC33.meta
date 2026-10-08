@@ -1,0 +1,4 @@
+Normal
+The last input line without a trailing newline is accepted
+Input is just '0' with no newline
+Program exits normally with Goodbye

@@ -1,0 +1,4 @@
+Boundary
+The 100th record is accepted and the 101st is rejected
+Add C001-C100, then choose option 1 again, then option 2
+100th accepted ('100 of 100'); capacity message for the 101st; still exactly 100 records

@@ -1,0 +1,114 @@
+# Transcript of test TC31 (Normal)
+# Purpose : Surrounding spaces are trimmed; +60 and 0080 are accepted as numbers
+# Input   : Add '  S001  ' / '   Asha Rao   ' with marks '  75  ', '+60', '0080', 90, 100; then search '  S001  '
+# Expected: Stored ID S001 and name Asha Rao; marks 75, 60, 80; search with spaces still finds it
+# Result  : PASS
+
+==============================================================
+  Student Academic Record and Performance Management System
+  GM University | C Programming with Practice (UE26CS1103)
+==============================================================
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 0 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): S001
+Enter student name (max 79 characters): Asha Rao
+Enter marks for Maths (0-100): 75
+Enter marks for Physics (0-100): +60
+Enter marks for Chemistry (0-100): 0080
+Enter marks for English (0-100): 90
+Enter marks for Computing (0-100): 100
+
+Student added successfully (1 of 100 records used).
+  ID         : S001
+  Name       : Asha Rao
+  Marks      :
+    Maths     :  75
+    Physics   :  60
+    Chemistry :  80
+    English   :  90
+    Computing : 100
+  Total      : 405 / 500
+  Average    : 81.00
+  Percentage : 81.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 1 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 3
+Enter student ID to search: S001
+
+=== ID Search Result ===
+  ID         : S001
+  Name       : Asha Rao
+  Marks      :
+    Maths     :  75
+    Physics   :  60
+    Chemistry :  80
+    English   :  90
+    Computing : 100
+  Total      : 405 / 500
+  Average    : 81.00
+  Percentage : 81.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 1 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 0
+
+Thank you for using the system. Records held in memory are lost on exit
+unless you saved them (option 12). Goodbye.

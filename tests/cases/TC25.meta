@@ -1,0 +1,4 @@
+Invalid
+Overlong identifier and name are rejected without corrupting later input
+ID of 25 characters, ID of 300 characters, S001, name of 90 characters, Asha Rao, valid marks
+Length errors shown; the 300-character line does not leak into the next prompt; record saved

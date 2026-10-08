@@ -1,0 +1,4 @@
+cat "$CASES/guide5.part"
+printf '%s\n' 12 roundtrip.dat
+printf '%s\n' 1 S006 "Late Entry" 50 50 50 50 50
+printf '%s\n' 13 roundtrip.dat y 2 0

@@ -1,0 +1,11 @@
+  Error: input is too long (maximum 19 characters, you typed 25).
+  Error: input is too long (maximum 19 characters).
+  Error: input is too long (maximum 79 characters, you typed 90).
+@2|input is too long (maximum 19 characters
+@1|input is too long (maximum 79 characters
+Student added successfully (1 of 100 records used).
+  ID         : S001
+  Name       : Asha Rao
+!you typed 45
+!is not a valid whole number
+!Unsupported

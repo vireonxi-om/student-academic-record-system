@@ -1,0 +1,164 @@
+# Transcript of test TC36 (Invalid)
+# Purpose : Enhancement: update rejects a bad mark and an unknown ID
+# Input   : Update S001 with subject 9, mark 101, then valid; update NOPE
+# Expected: Out-of-range subject/mark re-asked; unknown ID reported; stored marks only change on save
+# Result  : PASS
+
+==============================================================
+  Student Academic Record and Performance Management System
+  GM University | C Programming with Practice (UE26CS1103)
+==============================================================
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 0 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 1
+
+=== Add Student ===
+Enter student ID (max 19 characters, no spaces): S001
+Enter student name (max 79 characters): Asha Rao
+Enter marks for Maths (0-100): 80
+Enter marks for Physics (0-100): 70
+Enter marks for Chemistry (0-100): 60
+Enter marks for English (0-100): 90
+Enter marks for Computing (0-100): 50
+
+Student added successfully (1 of 100 records used).
+  ID         : S001
+  Name       : Asha Rao
+  Marks      :
+    Maths     :  80
+    Physics   :  70
+    Chemistry :  60
+    English   :  90
+    Computing :  50
+  Total      : 350 / 500
+  Average    : 70.00
+  Percentage : 70.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 1 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 9
+Enter ID of the student to update: S001
+
+=== Update Marks ===
+Current record:
+  ID         : S001
+  Name       : Asha Rao
+  Marks      :
+    Maths     :  80
+    Physics   :  70
+    Chemistry :  60
+    English   :  90
+    Computing :  50
+  Total      : 350 / 500
+  Average    : 70.00
+  Percentage : 70.00%
+  Result     : Pass
+
+Subjects: 1=Maths(80), 2=Physics(70), 3=Chemistry(60), 4=English(90), 5=Computing(50)
+Subject number to change (1-5, 0 = save and finish): 9
+  Error: 9 is out of range. Enter a whole number from 0 to 5.
+Subject number to change (1-5, 0 = save and finish): 1
+New marks for Maths (0-100): 101
+  Error: 101 is out of range. Enter a whole number from 0 to 100.
+New marks for Maths (0-100): 95
+
+Subjects: 1=Maths(95), 2=Physics(70), 3=Chemistry(60), 4=English(90), 5=Computing(50)
+Subject number to change (1-5, 0 = save and finish): 0
+
+Marks saved. Total 350 -> 365, result Pass -> Pass.
+Updated record:
+  ID         : S001
+  Name       : Asha Rao
+  Marks      :
+    Maths     :  95
+    Physics   :  70
+    Chemistry :  60
+    English   :  90
+    Computing :  50
+  Total      : 365 / 500
+  Average    : 73.00
+  Percentage : 73.00%
+  Result     : Pass
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 1 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 9
+Enter ID of the student to update: NOPE
+No student found with ID "NOPE". Nothing was changed.
+
+------------------------- MAIN MENU --------------------------
+  Records stored: 1 / 100
+   1. Add student
+   2. Display all student records
+   3. Search by identifier
+   4. Search by name
+   5. Display subject-wise marks table
+   6. Display highest and lowest performance
+   7. Display frequency analysis
+   8. Display pass/fail summary
+  --- Optional enhancements ---
+   9. Update a student's marks
+  10. Display ranking (by total marks)
+  11. Search by partial name (not case-sensitive)
+  12. Save records to a file
+  13. Load records from a file
+  14. Export academic summary to CSV
+   0. Exit
+--------------------------------------------------------------
+Enter your choice (0-14): 0
+
+Thank you for using the system. Records held in memory are lost on exit
+unless you saved them (option 12). Goodbye.

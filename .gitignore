@@ -1,0 +1,15 @@
+# build products (rebuilt with: make)
+student_pbl
+unit_tests
+gui/student_bridge
+.platform
+*.dSYM/
+unit_*.tmp
+
+# test scratch and runtime data
+tests/work/
+gui/data/
+
+# tooling
+node_modules/
+.DS_Store

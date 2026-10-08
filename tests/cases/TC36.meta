@@ -1,0 +1,4 @@
+Invalid
+Enhancement: update rejects a bad mark and an unknown ID
+Update S001 with subject 9, mark 101, then valid; update NOPE
+Out-of-range subject/mark re-asked; unknown ID reported; stored marks only change on save
