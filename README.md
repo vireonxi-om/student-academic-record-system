@@ -35,6 +35,17 @@ Windows with GCC (MinGW): run `build.bat`, then `student_pbl.exe`.
 
 ### macOS (MacBook with Apple silicon)
 
+**Quick start:** install Apple Command Line Tools (`xcode-select --install`) and
+the LTS version of Node.js using the macOS installer from https://nodejs.org/en/download.
+Then run `sh Start-Mac.command` in this project folder for the browser interface,
+or `sh Start-Console-Mac.command` for the terminal program (no Node.js needed).
+Both launchers always rebuild with Apple's clang for your Mac's own architecture.
+The checked-in `student_pbl` and `gui/student_bridge` files are Linux executables;
+do not open those directly on a Mac. Open the launchers instead.
+
+If you downloaded the GitHub ZIP, extract it first. You can run the launchers with
+`sh` even if Finder does not allow double-clicking a downloaded script.
+
 The program is standard C11 and plain JavaScript, so it runs natively on Apple silicon. Note: the build
 products inside a folder copied from Linux are Linux programs; the Makefile detects the platform change and
 rebuilds, but `make clean` first is a good habit.
